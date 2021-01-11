@@ -66,7 +66,7 @@ cat <<_EOF
       -a|--alias <alias> : Device alias (e.g. flounder volantis (WiFi) vs volantisg (LTE))
       -b|--buildID <id>  : BuildID string (e.g. MMB29P)
       -o|--output <path> : Path to save generated vendor data
-      -i|--img <path>    : [OPTIONAL] Read factory image archive from file instead of downloading
+      -i|--imgs <path>   : [OPTIONAL] Read factory image archive from file instead of downloading
       -O|--ota <path>    : [OPTIONAL] Read OTA image archive from file instead of downloading
       -j|--java <path    : [OPTIONAL] Java path to use instead of system auto detected global version
       -f|--full    : [OPTIONAL] Use config with all non-essential OEM blobs to be compatible with GApps (default: false)
